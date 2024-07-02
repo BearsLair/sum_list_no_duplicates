@@ -1,5 +1,10 @@
 function sumNoDuplicates(numList) {
-  return 0;
+  if (numList.length === 0) {
+    return 0;
+  } else {
+    numList.sort();
+    return numList;
+  }
 }
 
 // Test cases
